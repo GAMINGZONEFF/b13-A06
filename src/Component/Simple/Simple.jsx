@@ -4,15 +4,15 @@ import { AiOutlineCaretRight } from 'react-icons/ai';
 const Simple = () => {
     return (
         
-              <div className='my-20 py-20 space-y-10'>
+              <div className=' my-5 md:my-20 md:py-20 space-y-10'>
             
-                        <div className='text-center space-y-5'>
+                        <div className='text-center space-y-5 px-5 md:px-0'>
                             <h1 className='text-5xl text-[#101727] font-extrabold'>Simple, Transparent Pricing</h1>
                             <p className='text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             
                         </div>
             
-                        <div className='grid grid-cols-3 gap-5 w-10/12 mx-auto '>
+                        <div className='grid grid-cols-1 md:grid-cols-3 gap-10 w-10/12 mx-auto '>
 
                         <div className='bg-[#F9FAFC] p-5 rounded-2xl space-y-5 border-gray-200 border flex flex-col'>
             

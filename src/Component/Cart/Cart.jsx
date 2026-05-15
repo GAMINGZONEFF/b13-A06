@@ -95,7 +95,7 @@ const Cart = ({buy,setBuy}) => {
                         <button 
                         onClick={() => handleRemove(pr,ind)}
                         
-                        className='text-red-600 ml-auto'>Remove</button>
+                        className='text-red-600 '>Remove</button>
                         
 
                     </div>

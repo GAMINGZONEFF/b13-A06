@@ -13,7 +13,7 @@ const GetStarted = () => {
 
             </div>
 
-            <div className='grid grid-cols-3 gap-5 w-10/12 mx-auto '>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-5 w-10/12 mx-auto '>
 
                 <div className='rounded-2xl  border-2 border-gray-400 p-3'>
                       <div className='rounded-full w-10 h-10 bg-linear-to-r from-indigo-600 to-purple-600 text-white flex justify-center items-center ml-auto'>
