@@ -4,9 +4,9 @@ import ImgBanner from '../../../B13-A6-DigiTools-Platform/assets/banner.png'
 
 const Hero = () => {
     return (
-        <div className='w-11/12 mx-auto flex gap-15 my-21 '>
-            <div className='space-y-10 mt-20'>
-                <div className='bg-indigo-100 rounded-3xl px-2 w-1/2 flex justify-center items-center '>
+        <div className='w-11/12 mx-auto flex flex-col my-5 md:flex-row gap-5 md:gap-15 md:my-21 '>
+            <div className='space-y-10 md:mt-20'>
+                <div className='bg-indigo-100 rounded-3xl px-2 w-1/2 flex justify-center items-center ml-auto md:m-0'>
                     <div className="w-4 h-4 rounded-full bg-radial from-indigo-600 via-indigo-600/40 to-transparent"></div>
 
                     <h1 className='bg-linear-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent p-2'>New: AI-Powered Tools Available</h1>   
