@@ -71,7 +71,7 @@ const Cart = ({buy,setBuy}) => {
                 <div className=' space-y-5 '>
                     <h1 className='text-left text-2xl text-purple-600 font-semibold'>Your Cart</h1>
                     {buy.map((pr,ind)=>{
-                    return <div key={ind} className=' bg-[#F9FAFC] rounded-2xl p-1 px-5 flex justify-between items-center'>
+                    return <div key={ind} className=' bg-[#F9FAFC] rounded-2xl p-1 px-5 md:flex justify-between items-center'>
 
                         <div className='flex '>
 
@@ -95,7 +95,7 @@ const Cart = ({buy,setBuy}) => {
                         <button 
                         onClick={() => handleRemove(pr,ind)}
                         
-                        className='text-red-600'>Remove</button>
+                        className='text-red-600 ml-auto'>Remove</button>
                         
 
                     </div>

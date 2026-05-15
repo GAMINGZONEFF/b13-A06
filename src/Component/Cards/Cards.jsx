@@ -58,6 +58,8 @@ const Cards = ({ cardInfo, buy, setBuy }) => {
                 </div>
             </div>
 
+            <div className='text-left space-y-3'>
+
             <h1 className='text-2xl text-[#101727] font-bold'>{title}</h1>
             <p className='text-[#627382]'>{description}</p>
 
@@ -65,6 +67,8 @@ const Cards = ({ cardInfo, buy, setBuy }) => {
                 <span className='text-2xl font-bold'>{price}</span>
                 <span className='text-[#627382]'>/Mo</span> 
             </h1>
+            </div>
+
 
             <div className='space-y-1 flex-1'>
                 {features.map((ft, index) => (
