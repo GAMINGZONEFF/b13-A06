@@ -13,7 +13,7 @@ const ProductSection = ({CardData, buy ,setBuy}) => {
 
         <>
             
-             <div className='grid grid-cols-3 mx-auto w-11/12 my-10 gap-5'>
+             <div className='grid grid-cols-1 md:grid-cols-3 mx-auto w-11/12 my-10 gap-5'>
 
             {
             CardData.map(cardInfo =>
