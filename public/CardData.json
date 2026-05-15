@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": "29$",
+    "badge": "Popular",
+    "imgSrc": "writing",
+    "features": ["50+ automations", "SEO optimization", "Plagiarism check"]
+  },
+  {
+    "id": 2,
+    "title": "SEO Tracker Elite",
+    "description": "Monitor your keyword rankings, analyze competitor backlinks, and optimize live pages.",
+    "price": "49$",
+    "badge": "Trending",
+    "imgSrc": "design",
+    "features": ["Unlimited tracking", "Competitor alerts", "Weekly PDF reports"]
+  },
+  {
+    "id": 3,
+    "title": "DesignBot Studio",
+    "description": "Transform text prompts into stunning, high-resolution visual graphics and assets.",
+    "price": "39$",
+    "badge": "Popular",
+    "imgSrc": "operation",
+    "features": ["4K resolution export", "Commercial license", "Cloud asset storage"]
+  },
+  {
+    "id": 4,
+    "title": "CodeWhisperer",
+    "description": "An intelligent AI assistant that auto-completes logic syntax and debugs codebase scripts.",
+    "price": "19$",
+    "badge": "Trending",
+    "imgSrc": "design",
+    "features": ["Supports 15+ languages", "Git integration", "Inline explanations"]
+  },
+  {
+    "id": 5,
+    "title": "DataPulse Analytics",
+    "description": "Track client behavioral flows and funnel conversions with visual real-time data loops.",
+    "price": "79$",
+    "badge": "New",
+    "imgSrc": "portfolio",
+    "features": ["Custom events tracking", "API webhooks", "Team access management"]
+  },
+  {
+    "id": 6,
+    "title": "SocialPilot Max",
+    "description": "Schedule multi-platform social media campaigns and leverage automated dynamic scheduling.",
+    "price": "25$",
+    "badge": "New",
+    "imgSrc": "social",
+    "features": ["10 profile syncs", "AI caption engine", "Engagement charts"]
+  }
+  
+]
