@@ -8,7 +8,7 @@ const CardHeading = ({CardPromise,buy,setBuy }) => {
     const [purple,setPurple] = useState("yes");
   
     return (
-        <div className='mx-auto w-11/12 mt-20 text-center space-y-5 mb-10'>
+        <div className='mx-auto w-11/12 mt-10 md:mt-20 text-center space-y-5 mb-10'>
 
             <h1 className='text-5xl font-extrabold'>Premium Digital Tools</h1>
             <p className='text-[#627382]'>Choose from our curated collection of premium digital products designed <br/>to boost your productivity and creativity.</p> 
